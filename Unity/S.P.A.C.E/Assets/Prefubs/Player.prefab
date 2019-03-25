@@ -121,6 +121,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 4
   movementSpeed: 8
+  maxVelocity: 2
+  maxHp: 0
+  relativeForceSens: 0.3
+  insensivityTimes: 8
 --- !u!95 &3925556835091877783
 Animator:
   serializedVersion: 3

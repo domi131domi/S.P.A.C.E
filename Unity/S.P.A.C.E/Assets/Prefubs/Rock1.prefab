@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6781594830738633579}
   - component: {fileID: 3330405594239545661}
   - component: {fileID: 1490749096028216305}
+  - component: {fileID: 795675884232423848}
   m_Layer: 8
   m_Name: Rock1
   m_TagString: Rock1
@@ -118,3 +119,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.04563856}
   serializedVersion: 2
   m_Radius: 2.430563
+--- !u!114 &795675884232423848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8850703962543337199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc031c18f19e6e248a0bcce45415bc48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimalMovSpeed: 10
+  maximalMovSpeed: 10
+  minimalRotSpeed: -8
+  maximalRotSpeed: 8
